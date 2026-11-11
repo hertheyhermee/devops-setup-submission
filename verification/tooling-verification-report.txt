@@ -1,0 +1,89 @@
+=== Tooling Verification Report ===
+Generated: Wed Nov 11 14:37:41 GMT 2026
+OS: Darwin MacBook-Air-6.local 27.2.0 Darwin Kernel Version 27.2.0: Wed Oct 14 23:48:16 PDT 2026; root:xnu-13432.41.4~25/RELEASE_ARM64_T8112 arm64
+
+--- Host requirements ---
+Installed RAM: 16.0 GiB
+Available space on home volume: 62.0 GiB
+
+--- Homebrew ---
+Homebrew 7.0.13
+
+--- Git ---
+git version 2.49.0
+
+--- Visual Studio Code ---
+1.145.3
+dcd3ad6e368fbe19d03f37054a40dbaf40d676f4
+arm64
+
+--- Docker ---
+Docker version 29.9.3, build 5457199
+
+--- Docker Compose ---
+Docker Compose version v5.7.0
+
+--- kubectl ---
+Client Version: v1.37.2
+Kustomize Version: v5.8.1
+
+--- Minikube ---
+minikube version: v1.39.0
+commit: 7a9f6a841470a207de8cf4bafcccee0969d8ba10
+
+--- Helm ---
+v4.3.1+gc0d08d0
+
+--- AWS CLI ---
+aws-cli/2.39.6 Python/3.15.2 Darwin/27.2.0 source/arm64
+
+--- Azure CLI ---
+{
+  "azure-cli": "2.92.0",
+  "azure-cli-core": "2.92.0",
+  "azure-cli-telemetry": "1.1.0",
+  "extensions": {}
+}
+
+--- Node.js ---
+v22.22.0
+
+--- npm ---
+10.9.4
+
+--- jq ---
+jq-1.8.2
+
+--- Terraform ---
+Terraform v1.17.1
+on darwin_arm64
+
+
+--- Ansible ---
+ansible [core 2.21.6]
+  config file = None
+  configured module search path = ['/Users/hayzed/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.6.0/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/hayzed/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.6.0/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+
+--- Minikube cluster ---
+minikube
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+
+--- Kubernetes nodes ---
+NAME       STATUS   ROLES           AGE   VERSION
+minikube   Ready    control-plane   39h   v1.37.0
+
+--- File permissions ---
+PASS: verification script is executable
+
+RESULT: PASS (all checks succeeded)
